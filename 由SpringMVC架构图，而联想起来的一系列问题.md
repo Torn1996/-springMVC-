@@ -34,7 +34,7 @@
 >
 > ​	介绍servlet首先就先要把servlet容器介绍清楚，现在市面上比较流行的servlet容器有Tomcat、Jetty，在这里还是以我们比较熟悉的Tomcat为例。Tomcat容器模型还是比较复杂的，在Tomcat的容器等级中，Context容器是直接管理Servlet在容器中的包装类Wrapper,所以Context容器如何运行将直接影响Servlet的工作方式。
 
-![](C:\Users\16213\Desktop\-springMVC-\images\Tomcat容器模型.png)
+![](https://github.com/Torn1996/-springMVC-/blob/master/images/Tomcat%E5%AE%B9%E5%99%A8%E6%A8%A1%E5%9E%8B.png)
 
 ​	从上图可以看出Tomcat的容器分成4个等级，真正管理Servlet的容器是Context容器，一个Context容器对应一个Web工程，在Tomcat的配置文件中可以很容易的看出这一点，如下：
 
