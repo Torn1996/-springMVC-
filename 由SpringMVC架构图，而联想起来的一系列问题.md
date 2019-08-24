@@ -26,7 +26,7 @@
 >
 >   SpringMVC框架提供了很多的View视图类型的支持：包括：jstlView、freemarkerView、PdfView等。我们最常用的视图就是jsp。
 
-![](C:\Users\16213\Desktop\-springMVC-\images\springMVC架构图.png)
+![](https://github.com/Torn1996/-springMVC-/blob/master/images/Tomcat%E5%AE%B9%E5%99%A8%E6%A8%A1%E5%9E%8B.png)
 
 ### 二、请求是怎么到达DispatcherServlet
 
